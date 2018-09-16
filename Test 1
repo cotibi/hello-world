@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grey-navbar {
+    background-color: transparent;
+    border:20px solid #737373;
+    padding: 0px;
+    margin: -8px;
+}
+li{
+    display: inline;
+    background-color: transparent;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+ul{
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="grey-navbar">
+<ul>
+    <li>Link 1</li> 
+    <li>Link 2</li>
+    <li>Link 3</li>
+    <li>Link 4</li>
+</ul>
+</div>
+</body>
+</html>
