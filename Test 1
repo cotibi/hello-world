@@ -1,39 +1,89 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-#grey-navbar {
-    background-color: transparent;
-    border:20px solid #737373;
-    padding: 0px;
-    margin: -8px;
+
+    * {
+margin:0;
+padding:0;
 }
-li{
-    display: inline;
-    background-color: transparent;
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+
+#header{
+font-family:Roboto;
+font-weight: strong;
+text-align: center;
 }
-ul{
-    background-color: transparent;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d10000;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    font-family: Roboto;
+    font-weight: strong;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(158, 158, 158);
+}
+
+p {
+font-family: Roboto;
+text-align: left;
+padding: 20px;
+}
+
+li a:active {
+    color: white;
+    background-color: #699ef4;
+    text-decoration: none;
 }
 
 </style>
 </head>
 <body>
 
-<div id="grey-navbar">
-<ul>
-    <li>Link 1</li> 
-    <li>Link 2</li>
-    <li>Link 3</li>
-    <li>Link 4</li>
-</ul>
+<div id="header" style="background-image:url(https://wallpaperstudio10.com/static/wpdb/wallpapers/3840x2160/171425.jpg)">
+  <h1>TEST PAGE</h1>
+  <p>TEST-PAGE.com</p>
 </div>
+
+<ul id="nav-bar">
+        <li><a href="#link1">LINK ONE</a></li>
+        <li><a href="#link2">LINK TWO</a></li>
+        <li><a href="#link3">LINK THREE</a></li>
+        <li><a href="#link4">LINK FOUR</a></li>
+        <li style="float:right"><a href="#about">ABOUT</a></li>
+</ul>
+<div>
+
+<p>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br>Scroll text<br></p>
+
+</div>
+
 </body>
+
 </html>
